@@ -17,5 +17,5 @@ int main() {
 	}
 
 	// Output final number of depth increases
-	cout << "Result: " << num_increases<< '\n';
+	cout << num_increases<< '\n';
 }

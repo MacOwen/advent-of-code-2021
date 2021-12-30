@@ -28,5 +28,5 @@ int main() {
 	}
 
 	// Output final number of window depth increases
-	cout << "Result: " << num_increases << '\n';
+	cout << num_increases << '\n';
 }
