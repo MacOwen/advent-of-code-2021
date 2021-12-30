@@ -2,7 +2,7 @@ from collections import deque
 
 def main():
 	# Read file input
-	with open("input1.txt", "r") as f:
+	with open("input.txt", "r") as f:
 		depths = [int(i) for i in f]
 	
 	window = deque()
