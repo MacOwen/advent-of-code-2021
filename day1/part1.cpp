@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+	freopen("input.txt", "r", stdin);
 	int previous_depth;
 	int depth;
 

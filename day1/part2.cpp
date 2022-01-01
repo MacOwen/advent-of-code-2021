@@ -3,6 +3,7 @@
 using namespace std;
 
 int main() {
+	freopen("input.txt", "r", stdin);
 	queue<int> window;
 	int depth;
 	int window_depth = 0;
