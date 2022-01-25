@@ -7,7 +7,7 @@ with open("input.txt", "r") as f:
 fish = [0]*7 # Maps day to number of fish replicating
 new_fish = [0]*7 # Maps day to number of new fish produced
 
-ans = len(data) # Total number of fish produced
+ans = len(data) # Total number of fish
 
 # Initialize fish array
 for fish_time in data:
@@ -16,8 +16,7 @@ for fish_time in data:
 # Calculate offspring
 for i in range(256):
     day = i%7
-    prev_day = (i-2)%7 # Day of the week when previously replicated fish were created
-    next_day = (i+2)%7 # Day of the week when new replicated fish will be created
+    next_day = (i+2)%7 # Day of the week when new fish will replicate
     ans += fish[day]
     new_fish[next_day] = fish[day]
     fish[day] += new_fish[day]
