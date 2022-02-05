@@ -1,5 +1,3 @@
-import heapq as hq
-
 # Read file input
 with open("input.txt", "r") as f:
     grid = [[int(j) for j in i.rstrip('\n')] for i in f]
